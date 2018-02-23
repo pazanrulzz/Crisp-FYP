@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+
+@media (min-width:992px) {
+    .grid-main {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%
+    }
+    .grid-auto {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        width: auto;
+        max-width: none
+    }
+    .grid-1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%
+    }
+    .grid-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%
+    }
+    .grid-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+    .grid-4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%
+    }
+    .grid-5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%
+    }
+    .grid-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+    .grid-7 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%
+    }
+    .grid-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%
+    }
+    .grid-9 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%
+    }
+    .grid-10 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%
+    }
+    .grid-11 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%
+    }
+    .grid-12 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+
+    /* Offset gridlocks  */
+    .gridlock-0 {
+        margin-left: 0
+    }
+    .gridlock-1 {
+        margin-left: 8.333333%
+    }
+    .gridlock-2 {
+        margin-left: 16.666667%
+    }
+    .gridlock-3 {
+        margin-left: 25%
+    }
+    .gridlock-4 {
+        margin-left: 33.333333%
+    }
+    .gridlock-5 {
+        margin-left: 41.666667%
+    }
+    .gridlock-6 {
+        margin-left: 50%
+    }
+    .gridlock-7 {
+        margin-left: 58.333333%
+    }
+    .gridlock-8 {
+        margin-left: 66.666667%
+    }
+    .gridlock-9 {
+        margin-left: 75%
+    }
+    .gridlock-10 {
+        margin-left: 83.333333%
+    }
+    .gridlock-11 {
+        margin-left: 91.666667%
+    }
+}
+
+/*------------------------------End of grid system*-------------------------/
+
+
+/*Top Header*/
+
+.panel {
+    width: 100%;
+    height: 3.5em;
+    background-color: black;
+}
+
+.user-area,
+.time-area,
+.log-off {
+    color: white;
+}
+
+.user-area {
+    text-align: center;
+}
+
+.time-area {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.log-off {
+    text-align: center;
+}
