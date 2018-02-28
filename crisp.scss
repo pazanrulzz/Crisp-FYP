@@ -157,7 +157,6 @@ body {
 
 .panel {
     width: 100%;
-    height: 3.5em;
     background-color: black;
 }
 
@@ -178,4 +177,12 @@ body {
 
 .log-off {
     text-align: center;
+}
+
+.info-inline {
+    margin-top: 0.2em;
+}
+
+.native-icon {
+    padding: 5px;
 }
