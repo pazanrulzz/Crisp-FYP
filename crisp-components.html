@@ -1,0 +1,525 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="crisp.scss">
+    <script src="crisp.js"></script>
+    <script src="jquery.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+</head>
+
+
+
+
+
+
+<!--------------------------------------------------------------------------->
+
+
+
+
+<!--Element 1 : Header-->
+<div class="grid-12">
+    <div class="panel">
+
+        <div class="row">
+
+            <div class="grid-3 user-area">
+                <i class="fas fa-user-circle  fa-2x native-icon"></i>
+            </div>
+
+            <div class="grid-6 time-area">
+                <div class="time">
+                    12:45AM
+                </div>
+
+            </div>
+            <div class="grid-3 log-off">
+                <i class="fas fa-power-off   fa-2x native-icon"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--End of Header element-->
+
+
+
+<div class="row">
+    <div class="grid-2">
+
+
+        <div class="flat-paper">
+            <button type="button" class="btn btn-main">Button</button>
+
+
+
+            <div class="list-container">
+                <div class="row">
+                    <div class="grid-6">
+                        <div class="list-item">
+                            <p>Pork Sandwich</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-6">
+                        <div class="list-price">
+                            <p>$ 5.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <label class="btn" for="popup-1">Modal</label>
+
+
+
+
+            <input class="popup-state" id="popup-1" type="checkbox" />
+            <div class="popup">
+                <label class="popup__bg" for="popup-1"></label>
+                <div class="popup__inner">
+                    <label class="popup__close" for="popup-1"></label>
+                    <h2>Test</h2>
+                    <p>Test Test Test Test Test</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+    <div class="grid-3">
+        <div class="flat-paper">
+        </div>
+    </div>
+
+
+
+
+    <div class="grid-4">
+        <div class="flat-paper">
+            <div class="checkout-list">
+                <header class="box">
+                    <label for="acc-close" class="box-title">Checkout</label>
+                </header>
+                <!--Sticker bar-->
+                <div class="sticker-bar">
+                    <div class="row">
+                        <div class="grid-10">
+                            <div class="sticker-text">
+                                <div class="row">
+                                    <div class="grid-6">
+                                        <div class="card-list-item">
+                                            Chicken Sandwich
+                                        </div>
+                                    </div>
+
+                                    <div class="grid-6">
+                                        <div class="card-list-price">
+                                            $ 5.99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="action-bar">
+                                <div class="actions">
+
+
+                                    <div class="far fa-times-circle">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="sticker-bar">
+                    <div class="row">
+                        <div class="grid-10">
+                            <div class="sticker-text">
+                                <div class="row">
+                                    <div class="grid-6">
+                                        <div class="card-list-item">
+                                            Vege Submarine
+                                        </div>
+                                    </div>
+
+                                    <div class="grid-6">
+                                        <div class="card-list-price">
+                                            $ 3.99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="action-bar">
+                                <div class="actions">
+
+
+                                    <div class="far fa-times-circle">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sticker-bar">
+                    <div class="row">
+                        <div class="grid-10">
+                            <div class="sticker-text">
+                                <div class="row">
+                                    <div class="grid-6">
+                                        <div class="card-list-item">
+                                            Large Coke 500ml
+                                        </div>
+                                    </div>
+
+                                    <div class="grid-6">
+                                        <div class="card-list-price">
+                                            $ 2.99
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-2">
+                            <div class="action-bar">
+                                <div class="actions">
+
+
+                                    <div class="far fa-times-circle">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="total-area">
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="grid-3">
+        <div class="flat-paper">
+            <nav class="accordion arrows">
+                <header class="box">
+                    <label for="acc-close" class="box-title">Menu</label>
+                </header>
+                <input type="radio" name="accordion" id="cb1" />
+                <section class="box">
+                    <label class="box-title" for="cb1"> Sandwiches </label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">
+                        <div class="list-container" id="modal-1" type="checkbox" for="popup-1">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Chicken Sandwich</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 5.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Double Cheese Burger</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 3.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Vegetarian Submarine</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 4.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <input type="radio" name="accordion" id="cb2" />
+                <section class="box">
+                    <label class="box-title" for="cb2">Beverages</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Coca Cola 500ml</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 0.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Mango Smoothie</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 1.49</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <input type="radio" name="accordion" id="cb3" />
+                <section class="box">
+                    <label class="box-title" for="cb3">Add-ons / Sides</label>
+                    <label class="box-close" for="acc-close"></label>
+                    <div class="box-content">
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>French Fries</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 2.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>BBQ Fish Platter</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 6.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-container">
+                            <div class="row">
+                                <div class="grid-6">
+                                    <div class="list-item">
+                                        <p>Vegan Salad</p>
+                                    </div>
+                                </div>
+
+                                <div class="grid-6">
+                                    <div class="list-price">
+                                        <p>$ 3.99</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <input type="radio" name="accordion" id="acc-close" />
+            </nav>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<!--
+
+
+<input type="text" class="form-element" placeholder="Example input">
+-->
+
+
+
+<!------------------------------------------------------------------------->
+
+<!-- Button Main -->
+<!--
+<button type="button" class="btn btn-main">Button</button>
+-->
+
+<!-- Button End -->
+
+
+<!------------------------------------------------------------------------->
+
+<!--Element 1 : Header-->
+<!--
+<div class="grid-12">
+    <div class="panel">
+
+        <div class="row">
+
+            <div class="grid-3 user-area">
+                <i class="fas fa-user-circle  fa-2x native-icon"></i>
+            </div>
+
+            <div class="grid-6 time-area">
+                <div class="time">
+                    12:45AM
+                </div>
+
+            </div>
+            <div class="grid-3 log-off">
+                <i class="fas fa-power-off   fa-2x native-icon"></i>
+            </div>
+
+        </div>
+    </div>
+</div>
+-->
+<!--End of Header element-->
+
+
+
+<!------------------------------------------------------------------------->
+
+<!------------------------------------------------------------------------->
+
+
+<!--Element 2 : Flat paper container-->
+
+<!--
+<div class="flat-paper">
+
+</div>-->
+
+<!--End of Flat paper element-->
+
+
+<!------------------------------------------------------------------------>
+
+
+<!--Leanier Grid Sytsem-->
+<!--Defines the grid layout system of which is used in the system -->
+
+
+
+<!------------------------------------------------------------------------->
+
+<!-- Naked Grid System-->
+
+<!--
+<div class="row">
+    <div class="grid-2">
+    </div>
+    <div class="grid-3">
+    </div>
+    <div class="grid-4">
+    </div>
+    <div class="grid-3">
+    </div>
+
+</div>
+-->
+<!-- End of Naked grid system -->
+
+
+
+<!------------------------------------------------------------------------->
+
+<!------------------------------------------------------------------------->
+
+<!-- Element 03 : Menu Accordion-->
+<!--
+<nav class="accordion arrows">
+    <header class="box">
+        <label for="acc-close" class="box-title">Accordion menu</label>
+    </header>
+    <input type="radio" name="accordion" id="cb1" />
+    <section class="box">
+        <label class="box-title" for="cb1"> Sandwiches </label>
+        <label class="box-close" for="acc-close"></label>
+        <div class="box-content">Click on an item to open. Click on its header or the list header to close.</div>
+    </section>
+    <input type="radio" name="accordion" id="cb2" />
+    <section class="box">
+        <label class="box-title" for="cb2">Beverages</label>
+        <label class="box-close" for="acc-close"></label>
+        <div class="box-content">Add the class 'arrows' to nav.accordion to add dropdown arrows.</div>
+    </section>
+    <input type="radio" name="accordion" id="cb3" />
+    <section class="box">
+        <label class="box-title" for="cb3">Add-ons</label>
+        <label class="box-close" for="acc-close"></label>
+        <div class="box-content">Add the class 'arrows' to nav.accordion to add dropdown arrows.</div>
+    </section>
+
+
+    <input type="radio" name="accordion" id="acc-close" />
+</nav>
+-->
+<!---------------------End of Menu Element----------------------------->
+
+
+
+<script src="crisp.js"></script>
+<script src="jquery.js"></script>
