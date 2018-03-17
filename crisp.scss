@@ -457,16 +457,24 @@ input:checked + section.box .box-title:before {
 .sticker-bar {
     margin: 10px;
     border: 1px solid #F2700F;
+    border-radius: 3px;
+}
+
+.sticker-bar {
+    cursor: pointer;
 }
 
 .actions {
     font-size: 2rem;
-    padding: 3px;
-    border: 1px solid #F2700F;
+    padding: 5px;
+}
+
+.actions:hover {
+    cursor: pointer;
 }
 
 .sticker-text {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .vertical {
@@ -474,8 +482,8 @@ input:checked + section.box .box-title:before {
 }
 
 .action-bar {
-    color: white;
-    background-color: #F2700F;
+    color: #F2700F;
+
 
 }
 
